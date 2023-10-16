@@ -7,11 +7,12 @@ import static io.restassured.RestAssured.given;
 
 public class RequestGET implements IRequest {
     @Override
-    public Response send(RequestInfo requestInfo) {
+    public Response send(RequestInfo requestInfo, String token) {
         Response response=given()
                     .auth()
                     .preemptive()
-                    .basic(Configuration.user, Configuration.password)
+                    .oauth2(token)
+                    .header("Token", token)
                     .log()
                     .all().
                 when()

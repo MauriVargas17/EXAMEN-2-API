@@ -13,6 +13,7 @@ public class TestBase {
 
     public RequestInfo requestInfo;
     public Response response;
+    public String token;
     @BeforeEach
     public void before(){
         requestInfo = new RequestInfo();
