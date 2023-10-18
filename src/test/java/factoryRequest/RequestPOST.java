@@ -7,12 +7,9 @@ import static io.restassured.RestAssured.given;
 
 public class RequestPOST implements IRequest {
     @Override
-    public Response send(RequestInfo requestInfo, String token) {
-        Response response=given()
-                    .auth()
-                    .preemptive()
-                    .oauth2(token)
-                    .header("Token", token)
+    public Response send(RequestInfo requestInfo) {
+        Response response=given().headers(requestInfo.getHeaders())
+
                     .body(requestInfo.getBody())
                     .log()
                     .all().
