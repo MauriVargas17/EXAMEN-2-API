@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - E1Testing</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>E1Testing</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/filab.e1.html">filab.e1</a> &gt; E1Testing</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">10.344s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">createUpdateDeleteProject()</td>
+<td class="success">10.344s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	POST
+Request URI:	https://todo.ly/api/user.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Email&quot;:&quot;abelardooo3324@abelardo.com&quot;,&quot;FullName&quot;:&quot;Abelardo&quot;,&quot;Password&quot;:&quot;12345&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=s5ksugt3eo0dphgbdjllzqke; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 18 Oct 2023 23:05:18 GMT
+Content-Length: 300
+
+{
+    &quot;Id&quot;: 751145,
+    &quot;Email&quot;: &quot;abelardooo3324@abelardo.com&quot;,
+    &quot;Password&quot;: null,
+    &quot;FullName&quot;: &quot;Abelardo&quot;,
+    &quot;TimeZone&quot;: 0,
+    &quot;IsProUser&quot;: false,
+    &quot;DefaultProjectId&quot;: 4152195,
+    &quot;AddItemMoreExpanded&quot;: false,
+    &quot;EditDueDateMoreExpanded&quot;: false,
+    &quot;ListSortType&quot;: 0,
+    &quot;FirstDayOfWeek&quot;: 0,
+    &quot;NewTaskDueDate&quot;: -1,
+    &quot;TimeZoneId&quot;: &quot;Pacific Standard Time&quot;
+}
+Request method:	GET
+Request URI:	https://todo.ly/api/authentication/token.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWJlbGFyZG9vbzMzMjRAYWJlbGFyZG8uY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=w0e3gdjxl2wl2oajyzkjzopq; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 18 Oct 2023 23:05:19 GMT
+Content-Length: 135
+
+{
+    &quot;TokenString&quot;: &quot;8e1383d91e7d402a8a4e28be64f02bd6&quot;,
+    &quot;UserEmail&quot;: &quot;abelardooo3324@abelardo.com&quot;,
+    &quot;ExpirationTime&quot;: &quot;/Date(1697688320840)/&quot;
+}
+Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Token=8e1383d91e7d402a8a4e28be64f02bd6
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Content&quot;:&quot;P1&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=vwjprdnlae4tjvi3swhwegok; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 18 Oct 2023 23:05:22 GMT
+Content-Length: 390
+
+{
+    &quot;Id&quot;: 4152201,
+    &quot;Content&quot;: &quot;P1&quot;,
+    &quot;ItemsCount&quot;: 0,
+    &quot;Icon&quot;: 0,
+    &quot;ItemType&quot;: 2,
+    &quot;ParentId&quot;: null,
+    &quot;Collapsed&quot;: false,
+    &quot;ItemOrder&quot;: 6,
+    &quot;Children&quot;: [
+        
+    ],
+    &quot;IsProjectShared&quot;: false,
+    &quot;ProjectShareOwnerName&quot;: null,
+    &quot;ProjectShareOwnerEmail&quot;: null,
+    &quot;IsShareApproved&quot;: false,
+    &quot;IsOwnProject&quot;: true,
+    &quot;LastSyncedDateTime&quot;: &quot;/Date(1697670322104)/&quot;,
+    &quot;LastUpdatedDate&quot;: &quot;/Date(1697670322090)/&quot;,
+    &quot;Deleted&quot;: false,
+    &quot;SyncClientCreationId&quot;: null
+}
+Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Token=
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Content&quot;:&quot;P2&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=nzb4emslyqtrgqoa34imh32b; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 18 Oct 2023 23:05:23 GMT
+Content-Length: 52
+
+{
+    &quot;ErrorMessage&quot;: &quot;Not Authenticated&quot;,
+    &quot;ErrorCode&quot;: 102
+}
+Request method:	GET
+Request URI:	https://todo.ly/api/authentication/token.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWJlbGFyZG9vbzMzMjRAYWJlbGFyZG8uY29tOjEyMzQ1
+				Token=
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=sxmc3dd5umb3rwmmpzgretis; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 18 Oct 2023 23:05:24 GMT
+Content-Length: 135
+
+{
+    &quot;TokenString&quot;: &quot;4e7f9eb690fe4ff5ab905f51f31786e2&quot;,
+    &quot;UserEmail&quot;: &quot;abelardooo3324@abelardo.com&quot;,
+    &quot;ExpirationTime&quot;: &quot;/Date(1697688324430)/&quot;
+}
+Request method:	GET
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Token=4e7f9eb690fe4ff5ab905f51f31786e2
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=ezwvrfpci0uxrvoq5canx0bn; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 18 Oct 2023 23:05:25 GMT
+Content-Length: 2776
+
+[
+    {
+        &quot;Id&quot;: 4152195,
+        &quot;Content&quot;: &quot;Work&quot;,
+        &quot;ItemsCount&quot;: 0,
+        &quot;Icon&quot;: 10,
+        &quot;ItemType&quot;: 2,
+        &quot;ParentId&quot;: null,
+        &quot;Collapsed&quot;: false,
+        &quot;ItemOrder&quot;: 1,
+        &quot;Children&quot;: [
+            {
+                &quot;Id&quot;: 4152196,
+                &quot;Content&quot;: &quot;Sub Project&quot;,
+                &quot;ItemsCount&quot;: 0,
+                &quot;Icon&quot;: 10,
+                &quot;ItemType&quot;: 2,
+                &quot;ParentId&quot;: 4152195,
+                &quot;Collapsed&quot;: false,
+                &quot;ItemOrder&quot;: 1,
+                &quot;Children&quot;: [
+                    
+                ],
+                &quot;IsProjectShared&quot;: false,
+                &quot;ProjectShareOwnerName&quot;: null,
+                &quot;ProjectShareOwnerEmail&quot;: null,
+                &quot;IsShareApproved&quot;: false,
+                &quot;IsOwnProject&quot;: true,
+                &quot;LastSyncedDateTime&quot;: &quot;/Date(1697670325583)/&quot;,
+                &quot;LastUpdatedDate&quot;: &quot;/Date(1697670318767)/&quot;,
+                &quot;Deleted&quot;: false,
+                &quot;SyncClientCreationId&quot;: null
+            }
+        ],
+        &quot;IsProjectShared&quot;: false,
+        &quot;ProjectShareOwnerName&quot;: null,
+        &quot;ProjectShareOwnerEmail&quot;: null,
+        &quot;IsShareApproved&quot;: false,
+        &quot;IsOwnProject&quot;: true,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1697670325583)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1697670318750)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;SyncClientCreationId&quot;: null
+    },
+    {
+        &quot;Id&quot;: 4152197,
+        &quot;Content&quot;: &quot;Home&quot;,
+        &quot;ItemsCount&quot;: 0,
+        &quot;Icon&quot;: 1,
+        &quot;ItemType&quot;: 2,
+        &quot;ParentId&quot;: null,
+        &quot;Collapsed&quot;: false,
+        &quot;ItemOrder&quot;: 2,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;IsProjectShared&quot;: false,
+        &quot;ProjectShareOwnerName&quot;: null,
+        &quot;ProjectShareOwnerEmail&quot;: null,
+        &quot;IsShareApproved&quot;: false,
+        &quot;IsOwnProject&quot;: true,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1697670325583)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1697670318767)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;SyncClientCreationId&quot;: null
+    },
+    {
+        &quot;Id&quot;: 4152198,
+        &quot;Content&quot;: &quot;Study&quot;,
+        &quot;ItemsCount&quot;: 0,
+        &quot;Icon&quot;: 4,
+        &quot;ItemType&quot;: 2,
+        &quot;ParentId&quot;: null,
+        &quot;Collapsed&quot;: false,
+        &quot;ItemOrder&quot;: 3,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;IsProjectShared&quot;: false,
+        &quot;ProjectShareOwnerName&quot;: null,
+        &quot;ProjectShareOwnerEmail&quot;: null,
+        &quot;IsShareApproved&quot;: false,
+        &quot;IsOwnProject&quot;: true,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1697670325583)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1697670318767)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;SyncClientCreationId&quot;: null
+    },
+    {
+        &quot;Id&quot;: 4152199,
+        &quot;Content&quot;: &quot;Personal&quot;,
+        &quot;ItemsCount&quot;: 0,
+        &quot;Icon&quot;: 6,
+        &quot;ItemType&quot;: 2,
+        &quot;ParentId&quot;: null,
+        &quot;Collapsed&quot;: false,
+        &quot;ItemOrder&quot;: 4,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;IsProjectShared&quot;: false,
+        &quot;ProjectShareOwnerName&quot;: null,
+        &quot;ProjectShareOwnerEmail&quot;: null,
+        &quot;IsShareApproved&quot;: false,
+        &quot;IsOwnProject&quot;: true,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1697670325599)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1697670318767)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;SyncClientCreationId&quot;: null
+    },
+    {
+        &quot;Id&quot;: 4152200,
+        &quot;Content&quot;: &quot;Shopping List&quot;,
+        &quot;ItemsCount&quot;: 0,
+        &quot;Icon&quot;: 14,
+        &quot;ItemType&quot;: 2,
+        &quot;ParentId&quot;: null,
+        &quot;Collapsed&quot;: false,
+        &quot;ItemOrder&quot;: 5,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;IsProjectShared&quot;: false,
+        &quot;ProjectShareOwnerName&quot;: null,
+        &quot;ProjectShareOwnerEmail&quot;: null,
+        &quot;IsShareApproved&quot;: false,
+        &quot;IsOwnProject&quot;: true,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1697670325599)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1697670318767)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;SyncClientCreationId&quot;: null
+    },
+    {
+        &quot;Id&quot;: 4152201,
+        &quot;Content&quot;: &quot;P1&quot;,
+        &quot;ItemsCount&quot;: 0,
+        &quot;Icon&quot;: 0,
+        &quot;ItemType&quot;: 2,
+        &quot;ParentId&quot;: null,
+        &quot;Collapsed&quot;: false,
+        &quot;ItemOrder&quot;: 6,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;IsProjectShared&quot;: false,
+        &quot;ProjectShareOwnerName&quot;: null,
+        &quot;ProjectShareOwnerEmail&quot;: null,
+        &quot;IsShareApproved&quot;: false,
+        &quot;IsOwnProject&quot;: true,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1697670325599)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1697670322090)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;SyncClientCreationId&quot;: null
+    }
+]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at Oct 18, 2023, 7:05:27 PM</p>
+</div>
+</div>
+</body>
+</html>

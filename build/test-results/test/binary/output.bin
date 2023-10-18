@@ -10,28 +10,28 @@
 Cookies:		<none>
 Multiparts:		<none>
 Body:
-L{"Email":"abelardo1@abelardo.com","FullName":"Abelardo","Password":"12345"}
+Q{"Email":"abelardooo3324@abelardo.com","FullName":"Abelardo","Password":"12345"}
 HTTP/1.1 200 OK
 3Cache-Control: no-cache, no-store, must-revalidate
 Pragma: no-cache
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=svvkxynb0zyzqor4ymn5pgn5; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=s5ksugt3eo0dphgbdjllzqke; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Wed, 18 Oct 2023 22:05:14 GMT
-Content-Length: 295
+$Date: Wed, 18 Oct 2023 23:05:18 GMT
+Content-Length: 300
 
 {
-    "Id": 751076,
-'    "Email": "abelardo1@abelardo.com",
+    "Id": 751145,
+,    "Email": "abelardooo3324@abelardo.com",
     "Password": null,
     "FullName": "Abelardo",
     "TimeZone": 0,
     "IsProUser": false,
-!    "DefaultProjectId": 4151715,
+!    "DefaultProjectId": 4152195,
 "    "AddItemMoreExpanded": false,
 &    "EditDueDateMoreExpanded": false,
     "ListSortType": 0,
@@ -46,7 +46,7 @@
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-GHeaders:		Authorization=Basic YWJlbGFyZG8xQGFiZWxhcmRvLmNvbToxMjM0NQ==
+KHeaders:		Authorization=Basic YWJlbGFyZG9vbzMzMjRAYWJlbGFyZG8uY29tOjEyMzQ1
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -57,17 +57,17 @@
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=rj4oecrkchbwzrdpjlylk5l2; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=w0e3gdjxl2wl2oajyzkjzopq; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Wed, 18 Oct 2023 22:05:16 GMT
-Content-Length: 130
+$Date: Wed, 18 Oct 2023 23:05:19 GMT
+Content-Length: 135
 
 {
-7    "TokenString": "2b8f30667085469e97db105f13b97172",
-+    "UserEmail": "abelardo1@abelardo.com",
-.    "ExpirationTime": "/Date(1697684717247)/"
+7    "TokenString": "8e1383d91e7d402a8a4e28be64f02bd6",
+0    "UserEmail": "abelardooo3324@abelardo.com",
+.    "ExpirationTime": "/Date(1697688320840)/"
 }
 Request method:	POST
 /Request URI:	https://todo.ly/api/projects.json
@@ -76,7 +76,7 @@
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-1Headers:		Token=2b8f30667085469e97db105f13b97172
+1Headers:		Token=8e1383d91e7d402a8a4e28be64f02bd6
 				Accept=*/*
 0				Content-Type=text/plain; charset=ISO-8859-1
 Cookies:		<none>
@@ -89,15 +89,15 @@
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=zl4xywxrbyxufzo213jwysoi; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=vwjprdnlae4tjvi3swhwegok; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Wed, 18 Oct 2023 22:05:18 GMT
+$Date: Wed, 18 Oct 2023 23:05:22 GMT
 Content-Length: 390
 
 {
-    "Id": 4151721,
+    "Id": 4152201,
     "Content": "P1",
     "ItemsCount": 0,
     "Icon": 0,
@@ -113,8 +113,8 @@
 $    "ProjectShareOwnerEmail": null,
     "IsShareApproved": false,
     "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697666718493)/",
-0    "LastUpdatedDate": "/Date(1697666718477)/",
+3    "LastSyncedDateTime": "/Date(1697670322104)/",
+0    "LastUpdatedDate": "/Date(1697670322090)/",
     "Deleted": false,
 !    "SyncClientCreationId": null
 }
@@ -138,14 +138,225 @@
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=vr2fhyg3vrz1vnkhii2hewjt; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=nzb4emslyqtrgqoa34imh32b; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Wed, 18 Oct 2023 22:05:19 GMT
+$Date: Wed, 18 Oct 2023 23:05:23 GMT
 Content-Length: 52
 
 {
 )    "ErrorMessage": "Not Authenticated",
     "ErrorCode": 102
 }
+Request method:	GET
+;Request URI:	https://todo.ly/api/authentication/token.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+KHeaders:		Authorization=Basic YWJlbGFyZG9vbzMzMjRAYWJlbGFyZG8uY29tOjEyMzQ1
+				Token=
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+3Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+.Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+WSet-Cookie: ASP.NET_SessionId=sxmc3dd5umb3rwmmpzgretis; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+$Date: Wed, 18 Oct 2023 23:05:24 GMT
+Content-Length: 135
+
+{
+7    "TokenString": "4e7f9eb690fe4ff5ab905f51f31786e2",
+0    "UserEmail": "abelardooo3324@abelardo.com",
+.    "ExpirationTime": "/Date(1697688324430)/"
+}
+Request method:	GET
+/Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+1Headers:		Token=4e7f9eb690fe4ff5ab905f51f31786e2
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+3Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+.Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+WSet-Cookie: ASP.NET_SessionId=ezwvrfpci0uxrvoq5canx0bn; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+$Date: Wed, 18 Oct 2023 23:05:25 GMT
+Content-Length: 2776
+
+[
+    {
+        "Id": 4152195,
+        "Content": "Work",
+        "ItemsCount": 0,
+        "Icon": 10,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 1,
+        "Children": [
+            {
+                "Id": 4152196,
+*                "Content": "Sub Project",
+!                "ItemsCount": 0,
+                "Icon": 10,
+                "ItemType": 2,
+%                "ParentId": 4152195,
+$                "Collapsed": false,
+                 "ItemOrder": 1,
+                "Children": [
+                    
+                ],
+*                "IsProjectShared": false,
+/                "ProjectShareOwnerName": null,
+0                "ProjectShareOwnerEmail": null,
+*                "IsShareApproved": false,
+&                "IsOwnProject": true,
+?                "LastSyncedDateTime": "/Date(1697670325583)/",
+<                "LastUpdatedDate": "/Date(1697670318767)/",
+"                "Deleted": false,
+-                "SyncClientCreationId": null
+            }
+        ],
+"        "IsProjectShared": false,
+'        "ProjectShareOwnerName": null,
+(        "ProjectShareOwnerEmail": null,
+"        "IsShareApproved": false,
+        "IsOwnProject": true,
+7        "LastSyncedDateTime": "/Date(1697670325583)/",
+4        "LastUpdatedDate": "/Date(1697670318750)/",
+        "Deleted": false,
+%        "SyncClientCreationId": null
+    },
+    {
+        "Id": 4152197,
+        "Content": "Home",
+        "ItemsCount": 0,
+        "Icon": 1,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 2,
+        "Children": [
+            
+        ],
+"        "IsProjectShared": false,
+'        "ProjectShareOwnerName": null,
+(        "ProjectShareOwnerEmail": null,
+"        "IsShareApproved": false,
+        "IsOwnProject": true,
+7        "LastSyncedDateTime": "/Date(1697670325583)/",
+4        "LastUpdatedDate": "/Date(1697670318767)/",
+        "Deleted": false,
+%        "SyncClientCreationId": null
+    },
+    {
+        "Id": 4152198,
+        "Content": "Study",
+        "ItemsCount": 0,
+        "Icon": 4,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 3,
+        "Children": [
+            
+        ],
+"        "IsProjectShared": false,
+'        "ProjectShareOwnerName": null,
+(        "ProjectShareOwnerEmail": null,
+"        "IsShareApproved": false,
+        "IsOwnProject": true,
+7        "LastSyncedDateTime": "/Date(1697670325583)/",
+4        "LastUpdatedDate": "/Date(1697670318767)/",
+        "Deleted": false,
+%        "SyncClientCreationId": null
+    },
+    {
+        "Id": 4152199,
+        "Content": "Personal",
+        "ItemsCount": 0,
+        "Icon": 6,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 4,
+        "Children": [
+            
+        ],
+"        "IsProjectShared": false,
+'        "ProjectShareOwnerName": null,
+(        "ProjectShareOwnerEmail": null,
+"        "IsShareApproved": false,
+        "IsOwnProject": true,
+7        "LastSyncedDateTime": "/Date(1697670325599)/",
+4        "LastUpdatedDate": "/Date(1697670318767)/",
+        "Deleted": false,
+%        "SyncClientCreationId": null
+    },
+    {
+        "Id": 4152200,
+$        "Content": "Shopping List",
+        "ItemsCount": 0,
+        "Icon": 14,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 5,
+        "Children": [
+            
+        ],
+"        "IsProjectShared": false,
+'        "ProjectShareOwnerName": null,
+(        "ProjectShareOwnerEmail": null,
+"        "IsShareApproved": false,
+        "IsOwnProject": true,
+7        "LastSyncedDateTime": "/Date(1697670325599)/",
+4        "LastUpdatedDate": "/Date(1697670318767)/",
+        "Deleted": false,
+%        "SyncClientCreationId": null
+    },
+    {
+        "Id": 4152201,
+        "Content": "P1",
+        "ItemsCount": 0,
+        "Icon": 0,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 6,
+        "Children": [
+            
+        ],
+"        "IsProjectShared": false,
+'        "ProjectShareOwnerName": null,
+(        "ProjectShareOwnerEmail": null,
+"        "IsShareApproved": false,
+        "IsOwnProject": true,
+7        "LastSyncedDateTime": "/Date(1697670325599)/",
+4        "LastUpdatedDate": "/Date(1697670322090)/",
+        "Deleted": false,
+%        "SyncClientCreationId": null
+    }
+]
