@@ -10,6 +10,7 @@ public class TestBase {
     public String put = "put";
     public String get ="get";
     public String delete ="delete";
+    public String create = "create";
 
     public RequestInfo requestInfo;
     public Response response;

@@ -1,3 +1,44 @@
+Request method:	POST
++Request URI:	https://todo.ly/api/user.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+0				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+L{"Email":"abelardo1@abelardo.com","FullName":"Abelardo","Password":"12345"}
+HTTP/1.1 200 OK
+3Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+.Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+WSet-Cookie: ASP.NET_SessionId=svvkxynb0zyzqor4ymn5pgn5; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+$Date: Wed, 18 Oct 2023 22:05:14 GMT
+Content-Length: 295
+
+{
+    "Id": 751076,
+'    "Email": "abelardo1@abelardo.com",
+    "Password": null,
+    "FullName": "Abelardo",
+    "TimeZone": 0,
+    "IsProUser": false,
+!    "DefaultProjectId": 4151715,
+"    "AddItemMoreExpanded": false,
+&    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+*    "TimeZoneId": "Pacific Standard Time"
+}
 Request method:	GET
 ;Request URI:	https://todo.ly/api/authentication/token.json
 Proxy:			<none>
@@ -5,7 +46,7 @@
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-?Headers:		Authorization=Basic dXBiYXBpQHVwYmFwaS5jb206MTIzNDU=
+GHeaders:		Authorization=Basic YWJlbGFyZG8xQGFiZWxhcmRvLmNvbToxMjM0NQ==
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -16,17 +57,17 @@
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=jhmi2ycp4m4bbkiztvalf1sg; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=rj4oecrkchbwzrdpjlylk5l2; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Wed, 18 Oct 2023 02:15:19 GMT
-Content-Length: 125
+$Date: Wed, 18 Oct 2023 22:05:16 GMT
+Content-Length: 130
 
 {
-7    "TokenString": "92a0acf026cb471896e19037ff6d0d50",
-&    "UserEmail": "upbapi@upbapi.com",
-.    "ExpirationTime": "/Date(1697613319370)/"
+7    "TokenString": "2b8f30667085469e97db105f13b97172",
++    "UserEmail": "abelardo1@abelardo.com",
+.    "ExpirationTime": "/Date(1697684717247)/"
 }
 Request method:	POST
 /Request URI:	https://todo.ly/api/projects.json
@@ -35,35 +76,35 @@
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-1Headers:		Token=92a0acf026cb471896e19037ff6d0d50
+1Headers:		Token=2b8f30667085469e97db105f13b97172
 				Accept=*/*
 0				Content-Type=text/plain; charset=ISO-8859-1
 Cookies:		<none>
 Multiparts:		<none>
 Body:
-{"Content":"QuePro"}
+{"Content":"P1"}
 HTTP/1.1 200 OK
 3Cache-Control: no-cache, no-store, must-revalidate
 Pragma: no-cache
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=23r3lctvw4frpv4nbwlu5xrh; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=zl4xywxrbyxufzo213jwysoi; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Wed, 18 Oct 2023 02:15:22 GMT
-Content-Length: 396
+$Date: Wed, 18 Oct 2023 22:05:18 GMT
+Content-Length: 390
 
 {
-    "Id": 4150694,
-    "Content": "QuePro",
+    "Id": 4151721,
+    "Content": "P1",
     "ItemsCount": 0,
     "Icon": 0,
     "ItemType": 2,
     "ParentId": null,
     "Collapsed": false,
-    "ItemOrder": 217,
+    "ItemOrder": 6,
     "Children": [
 	        
     ],
@@ -72,151 +113,39 @@
 $    "ProjectShareOwnerEmail": null,
     "IsShareApproved": false,
     "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697595322457)/",
-0    "LastUpdatedDate": "/Date(1697595322443)/",
+3    "LastSyncedDateTime": "/Date(1697666718493)/",
+0    "LastUpdatedDate": "/Date(1697666718477)/",
     "Deleted": false,
 !    "SyncClientCreationId": null
 }
-Request method:	GET
-7Request URI:	https://todo.ly/api/projects/4150694.json
+Request method:	POST
+/Request URI:	https://todo.ly/api/projects.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-1Headers:		Token=92a0acf026cb471896e19037ff6d0d50
-				Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-3Cache-Control: no-cache, no-store, must-revalidate
-Pragma: no-cache
-.Content-Type: application/json; charset=utf-8
-Expires: -1
-Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=i4eds5ve05vby0hlfskxjqnk; path=/; HttpOnly; SameSite=Lax
-X-AspNetMvc-Version: 2.0
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-$Date: Wed, 18 Oct 2023 02:15:23 GMT
-Content-Length: 396
-
-{
-    "Id": 4150694,
-    "Content": "QuePro",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
-    "ParentId": null,
-    "Collapsed": false,
-    "ItemOrder": 217,
-    "Children": [
-	        
-    ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697595324220)/",
-0    "LastUpdatedDate": "/Date(1697595322443)/",
-    "Deleted": false,
-!    "SyncClientCreationId": null
-}
-Request method:	PUT
-7Request URI:	https://todo.ly/api/projects/4150694.json
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-1Headers:		Token=92a0acf026cb471896e19037ff6d0d50
+Headers:		Token=
 				Accept=*/*
 0				Content-Type=text/plain; charset=ISO-8859-1
 Cookies:		<none>
 Multiparts:		<none>
 Body:
-{"Content":"QueNoob"}
+{"Content":"P2"}
 HTTP/1.1 200 OK
 3Cache-Control: no-cache, no-store, must-revalidate
 Pragma: no-cache
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=izaag32l2rinjoxv0wahdco1; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=vr2fhyg3vrz1vnkhii2hewjt; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Wed, 18 Oct 2023 02:15:25 GMT
-Content-Length: 397
+$Date: Wed, 18 Oct 2023 22:05:19 GMT
+Content-Length: 52
 
 {
-    "Id": 4150694,
-    "Content": "QueNoob",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
-    "ParentId": null,
-    "Collapsed": false,
-    "ItemOrder": 217,
-    "Children": [
-	        
-    ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697595325795)/",
-0    "LastUpdatedDate": "/Date(1697595325797)/",
-    "Deleted": false,
-!    "SyncClientCreationId": null
-}
-Request method:	DELETE
-7Request URI:	https://todo.ly/api/projects/4150694.json
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-1Headers:		Token=92a0acf026cb471896e19037ff6d0d50
-				Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-3Cache-Control: no-cache, no-store, must-revalidate
-Pragma: no-cache
-.Content-Type: application/json; charset=utf-8
-Expires: -1
-Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=ojidakdtsl2r34encenlribh; path=/; HttpOnly; SameSite=Lax
-X-AspNetMvc-Version: 2.0
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-$Date: Wed, 18 Oct 2023 02:15:26 GMT
-Content-Length: 396
-
-{
-    "Id": 4150694,
-    "Content": "QueNoob",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
-    "ParentId": null,
-    "Collapsed": false,
-    "ItemOrder": 217,
-    "Children": [
-	        
-    ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697595327184)/",
-0    "LastUpdatedDate": "/Date(1697595327183)/",
-    "Deleted": true,
-!    "SyncClientCreationId": null
+)    "ErrorMessage": "Not Authenticated",
+    "ErrorCode": 102
 }

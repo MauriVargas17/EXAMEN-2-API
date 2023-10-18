@@ -11,6 +11,7 @@ public class FactoryRequest {
         requestMap.put("post",new RequestPOST());
         requestMap.put("get",new RequestGET());
         requestMap.put("delete",new RequestDELETE());
+        requestMap.put("create",new RequestCREATE());
 
         return requestMap.containsKey(type.toLowerCase())?
                    requestMap.get(type.toLowerCase()):
