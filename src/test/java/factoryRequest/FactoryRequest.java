@@ -12,6 +12,11 @@ public class FactoryRequest {
         requestMap.put("get",new RequestGET());
         requestMap.put("delete",new RequestDELETE());
         requestMap.put("create",new RequestCREATE());
+        requestMap.put("aput",new ARequestPUT());
+        requestMap.put("apost",new ARequestPOST());
+        requestMap.put("aget",new ARequestGET());
+        requestMap.put("adelete",new ARequestDELETE());
+        requestMap.put("acreate",new ARequestCREATE());
 
         return requestMap.containsKey(type.toLowerCase())?
                    requestMap.get(type.toLowerCase()):

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="filac.e2.E2Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-20T21:24:27" hostname="Mauricios-MacBook-Pro.local" time="17.95">
+  <properties/>
+  <testcase name="createUpdateDeleteProject()" classname="filac.e2.E2Test" time="17.95"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://todo.ly/api/user.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Email":"bastavasta1697837067896@abelardo.com","FullName":"Abelardo","Password":"12345"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=nhfjmnkeugij4jf3ifnbldms; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:28 GMT
+Content-Length: 309
+
+{
+    "Id": 751651,
+    "Email": "bastavasta1697837067896@abelardo.com",
+    "Password": null,
+    "FullName": "Abelardo",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4155690,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+Request method:	POST
+Request URI:	https://todo.ly/api/user.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Email":"bastavasta1697837071572@abelardo.com","FullName":"Abelardo","Password":"12345"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=wezeybvgqbm40jzbmyoyy1el; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:29 GMT
+Content-Length: 309
+
+{
+    "Id": 751652,
+    "Email": "bastavasta1697837071572@abelardo.com",
+    "Password": null,
+    "FullName": "Abelardo",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4155696,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+Request method:	POST
+Request URI:	https://todo.ly/api/user.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Email":"bastavasta1697837072826@abelardo.com","FullName":"Abelardo","Password":"12345"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=12hqaqmbud2pv2rnxzjeb3yb; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:31 GMT
+Content-Length: 309
+
+{
+    "Id": 751653,
+    "Email": "bastavasta1697837072826@abelardo.com",
+    "Password": null,
+    "FullName": "Abelardo",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4155702,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+Request method:	POST
+Request URI:	https://todo.ly/api/user.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Email":"bastavasta1697837074258@abelardo.com","FullName":"Abelardo","Password":"12345"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=ofo4t0qpfjfhcmtxglzp4p3r; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:33 GMT
+Content-Length: 309
+
+{
+    "Id": 751654,
+    "Email": "bastavasta1697837074258@abelardo.com",
+    "Password": null,
+    "FullName": "Abelardo",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4155708,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+Request method:	DELETE
+Request URI:	https://todo.ly/api/user/0.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YmFzdGF2YXN0YTE2OTc4MzcwNjc4OTZAYWJlbGFyZG8uY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=0spjjk2xpcqekx0hq2m2qqyb; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:34 GMT
+Content-Length: 309
+
+{
+    "Id": 751651,
+    "Email": "bastavasta1697837067896@abelardo.com",
+    "Password": null,
+    "FullName": "Abelardo",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4155690,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+User deleted: bastavasta1697837067896@abelardo.com
+Request method:	DELETE
+Request URI:	https://todo.ly/api/user/0.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YmFzdGF2YXN0YTE2OTc4MzcwNzE1NzJAYWJlbGFyZG8uY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=vlcl25ggtjbi4b4apqkyv3gg; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:35 GMT
+Content-Length: 309
+
+{
+    "Id": 751652,
+    "Email": "bastavasta1697837071572@abelardo.com",
+    "Password": null,
+    "FullName": "Abelardo",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4155696,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+User deleted: bastavasta1697837071572@abelardo.com
+Request method:	DELETE
+Request URI:	https://todo.ly/api/user/0.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YmFzdGF2YXN0YTE2OTc4MzcwNzI4MjZAYWJlbGFyZG8uY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=q3qs2wtewvxqgom4oihidcee; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:36 GMT
+Content-Length: 309
+
+{
+    "Id": 751653,
+    "Email": "bastavasta1697837072826@abelardo.com",
+    "Password": null,
+    "FullName": "Abelardo",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4155702,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+User deleted: bastavasta1697837072826@abelardo.com
+Request method:	DELETE
+Request URI:	https://todo.ly/api/user/0.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YmFzdGF2YXN0YTE2OTc4MzcwNzQyNThAYWJlbGFyZG8uY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=fnn4q2ixph3myy34xmugl3dc; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:38 GMT
+Content-Length: 309
+
+{
+    "Id": 751654,
+    "Email": "bastavasta1697837074258@abelardo.com",
+    "Password": null,
+    "FullName": "Abelardo",
+    "TimeZone": 0,
+    "IsProUser": false,
+    "DefaultProjectId": 4155708,
+    "AddItemMoreExpanded": false,
+    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+    "TimeZoneId": "Pacific Standard Time"
+}
+User deleted: bastavasta1697837074258@abelardo.com
+Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YmFzdGF2YXN0YTE2OTc4MzcwNjc4OTZAYWJlbGFyZG8uY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"12345"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=nveyblgq14g1n14gqhh3xz0i; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:39 GMT
+Content-Length: 61
+
+{
+    "ErrorMessage": "Account doesn't exist",
+    "ErrorCode": 105
+}
+Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YmFzdGF2YXN0YTE2OTc4MzcwNzE1NzJAYWJlbGFyZG8uY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"12345"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=2icrqju2ffxg4ypvig4yxbpj; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:41 GMT
+Content-Length: 61
+
+{
+    "ErrorMessage": "Account doesn't exist",
+    "ErrorCode": 105
+}
+Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YmFzdGF2YXN0YTE2OTc4MzcwNzI4MjZAYWJlbGFyZG8uY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"12345"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=i0r3chhlumn4yrlv2oz50nui; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:42 GMT
+Content-Length: 61
+
+{
+    "ErrorMessage": "Account doesn't exist",
+    "ErrorCode": 105
+}
+Request method:	POST
+Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YmFzdGF2YXN0YTE2OTc4MzcwNzQyNThAYWJlbGFyZG8uY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"12345"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=vfyg0cgwhgzs0pnd1poluht3; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 20 Oct 2023 21:24:43 GMT
+Content-Length: 61
+
+{
+    "ErrorMessage": "Account doesn't exist",
+    "ErrorCode": 105
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
